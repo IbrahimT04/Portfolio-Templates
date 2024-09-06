@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ibrahim's Portfolio-Homepage</title>
+    <script src = StylesheetPicker.js></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class = "home">
+
+    <div class="sidebar">
+        <div class="top">
+            <div class="logo">
+                <i class = "bx bxl-codepen"></i>
+                <span>IbrahimTariq</span>
+            </div>
+            <i class = "bx bx-menu" id = "btn"></i>
+        </div>
+        <div class="user">
+            <img src="MyProfilePic.png" alt="me" class="user-img">
+            <div>
+                <p class="bold">Ibrahim</p>
+                <p>Index</p>
+            </div>
+        </div>
+        <ul>
+            <li>
+                <a href="#">
+                    <i class="bx bxs-grid-alt"></i>
+                    <span class="nav-item">Dashboard</span>
+                </a>
+                <span class="tooltip">Dashboard</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="bx bxs-grid-alt"></i>
+                    <span class="nav-item">Dashboard</span>
+                </a>
+                <span class="tooltip">Dashboard</span>
+            </li>
+            <li>
+            <a href="#">
+                <i class="bx bxs-grid-alt"></i>
+                <span class="nav-item">Dashboard</span>
+            </a>
+            <span class="tooltip">Dashboard</span>
+        </li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <div class="container">
+            <h2>Hi, My name is Ibrahim Tariq</h2>
+        </div>
+        <div class="container">
+            <h2>And these are some of my projects</h2>
+        </div>
+
+        <div class="containerOdd">
+        <h2>And these are some of my projects</h2>
+        </div>
+        <div class="containerSpacing"></div>
+        <div class="containerEven">
+            <h2>And these are some of my projects</h2>
+        </div>
+        <div class="containerSpacing"></div>
+        <div class="containerOdd">
+            <h2>And these are some of my projects</h2>
+        </div>
+    </div>
+
+</body>
+
+<script>
+    let btn = document.querySelector('#btn');
+    let sidebar = document.querySelector('.sidebar');
+
+    btn.onclick = function (){
+        sidebar.classList.toggle('active');
+    };
+</script>
+
+</html>

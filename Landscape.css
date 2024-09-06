@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #b89f40;
+}
+h1{
+    margin: 0;
+    font-size: 60px;
+    text-align: center;
+}
+header {
+     color: white;
+     margin: 0;
+     display: grid;
+     place-items: center;
+     text-align: center;
+}
+.top {
+    background-color: black;
+    width: 99vw;
+}
+/*
+    ------------------Navigation Bar ----------------
+ */
+nav ul {
+    margin: 0;
+    display: inline;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    background: #967f35;
+    padding: 5px 15px;
+    border-radius: 10px;;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/*
+    ---------------Main home body format--------------
+ */
+body.home header{
+    height: 100vh;
+    width: 98.7vw;
+    background: #b89f40;
+    padding: 0;
+}
+body.home div.Odd{
+    height: 50vh;
+    width: 98.7vw;
+    background: #b89f40;
+    padding: 0;
+}
+body.home div.Even{
+    height: 50vh;
+    width: 98.7vw;
+    background: #967f35;
+    padding: 0;
+}
+/*
+    -------------------Main Game Design-------------------
+ */
+section.game-content div.project{
+    margin: 20px 50px;
+    padding: 10px;
+    border: 5px solid #d3a625;
+}
+section.game-content {
+    background-color: #f5e5b8;
+    border: 25px solid #b89f40;
+    padding: 20px;
+    margin: 0;
+}
+
+/*
+    -------------------Main Web Dev Design-------------------
+ */
+section.web-content div.project{
+    margin: 20px 50px;
+    padding: 10px;
+    border: 5px solid #d3a625;
+}
+section.web-content {
+    background-color: #f5e5b8;
+    border: 25px solid #b89f40;
+    padding: 20px;
+    margin: 0;
+}
+/*
+    -----------------------Footnote-----------------------
+ */
+footer{
+    background: black;
+    color: #999;
+    padding: 20px 5px;
+    margin: 0;
+}
+
+
+
+
+.portrait{
+    display: none;
+}
